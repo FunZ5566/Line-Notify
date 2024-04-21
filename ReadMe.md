@@ -25,4 +25,4 @@
 
 - 確保在使用 Line 通知功能前，已獲取 Line Notify 的金鑰。
 - 根據需要修改程式中的符號、時間間隔和 K 線數量等參數。
-!([lienotify](linenotify.jpg))
+[lienotify](linenotify3.jpg)
