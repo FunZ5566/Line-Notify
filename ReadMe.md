@@ -1,5 +1,5 @@
 ## 用於加密貨幣交易的自動通知程式
-Python版
+## Python版
 ## Google app scrpit 版
    -https://api.binance.com 拒絕來自google的請求，需改用https://api.binance.us
    -可使用Google app scrpit 觸發條件,來達成定時自動化通知
