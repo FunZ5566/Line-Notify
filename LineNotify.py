@@ -1,4 +1,4 @@
-# line_notify_token = "xDqGxT9zsXhJBw69tHuLVuMGdfZnDFfNormHw71yd9C"
+# line_notify_token = ""
 # line_notify = LineNotify(line_notify_token)
 # 設定您的Line通知金鑰
 # line_notify_token = ""
