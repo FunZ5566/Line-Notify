@@ -24,4 +24,4 @@ jobs:
       - name: Run scraper and send notifications
         env:
           LINE_NOTIFY_TOKEN: ${{ secrets.LINE_NOTIFY_TOKEN }}
-        run: python CrypitoLineNotify.py
+        run: python CryptoLineNotify.py
