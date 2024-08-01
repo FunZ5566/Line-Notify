@@ -3,7 +3,7 @@ import json
 import os
 
 def get_binance_data():
-    api_url = "https://api.binance.us/api/v3/ticker/price"
+    api_url = "https://api4.binance.com/api/v3/ticker/price"
     try:
         response = requests.get(api_url)
         response.raise_for_status()
@@ -14,7 +14,7 @@ def get_binance_data():
         return None
 
 def get_past_hourly_candles(symbol, interval, limit):
-    api_endpoint = "https://api.binance.us/api/v3/klines"
+    api_endpoint = "https://api4.binance.com/api/v3/klines"
     params = {
         "symbol": symbol,
         "interval": interval,
