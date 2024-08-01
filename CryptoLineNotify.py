@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 def get_binance_data():
     api_url = "https://api.binance.com/api/v3/ticker/price"
@@ -58,12 +59,6 @@ def send_line_notification(message):
         print(f"Line通知已發送: {message}")
     except requests.RequestException as e:
         print(f"發送Line通知時出錯: {e}")
-
-# def send_line_notify(message):
-#     line_notify_token = os.environ['LINE_NOTIFY_TOKEN']
-#     line_notify_api = 'https://notify-api.line.me/api/notify'
-#     headers = {'Authorization': f'Bearer {line_notify_token}'}
-#     data = {'message': message}
 
 def main():
     binance_data = get_binance_data()
